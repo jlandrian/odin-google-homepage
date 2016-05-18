@@ -1,0 +1,144 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#navbar {
+    /*outline: 1px solid black;*/
+    margin: 27px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.80em;
+}
+
+#navbar li {
+    padding: 10px;
+    /*outline: 1px solid black;*/
+    display: inline;
+    background-color: none;
+    color: #696969;
+}
+
+#grid {
+    /*outline: 1px solid red;*/
+    height: 25px;
+    margin-bottom: -8px;
+
+}
+
+#Signin {
+    border-radius: 2px 2px;
+    padding: 8px 14px;
+    display: inline;
+    background-color: #4084E3;
+    color: white;
+    font-weight: bold;
+}
+
+
+#container {
+    /*outline: 1px solid black;*/
+    position: relative;
+    width: 500px;
+    height: 180px;
+    margin: auto;
+    padding: 180px 0;
+    text-align: center;
+}
+
+#logo {
+    height: 96px;
+    width: 269px;
+}
+
+#searchbar input {
+    /*outline: 1px solid black;*/
+    margin-top: 20px;
+    width: 500px;
+    height: 20px;
+}
+
+.button {
+    display: inline-block;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .65em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 15px;
+    border:1px solid #E0E0E0;
+    border-radius: 3px;
+    background-color: #F2F2F2;
+    padding: 7px 12px;
+}
+
+#footer {
+    /*outline: 1px solid black;*/
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.80em;
+}
+
+#footer ul {
+    margin-top: 10px;
+}
+
+#footer ul li {
+    /*outline: 1px solid black;*/
+    display: inline;
+    color: #696969;
+    padding: 10px;
+}
+
+#right {
+    float: right;
+}
+
